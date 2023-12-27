@@ -46,7 +46,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('astro2.jpg'); /* Replace 'background.jpg' with the path to your background image */
+    background-image: url('astro2.jpg');
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -58,7 +58,7 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -69,18 +69,18 @@ body {
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 120px); /* Increased cell width */
-    gap: 10px; /* Increased gap between cells */
+    grid-template-columns: repeat(3, 120px); 
+    gap: 10px; 
 }
 
 .cell {
-    width: 120px; /* Increased cell width */
-    height: 120px; /* Increased cell height */
-    border: 2px solid #ccc; /* Bolder border */
+    width: 120px; 
+    height: 120px;
+    border: 2px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px; /* Larger font size */
+    font-size: 32px; 
     cursor: pointer;
 }
 
